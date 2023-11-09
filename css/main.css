@@ -29,6 +29,8 @@ article {
 
 #sabrina {
     max-width: 100%;
+    border-color: #F1F3F4;
+    border-style: solid;
 }
 
 .album {
@@ -51,6 +53,7 @@ p {
     border-color: #F4C2A1;
     border-style: solid;
     padding: 0.5rem 1rem;
+    margin: 1rem 0 2rem 0;
 }
 
 footer {
@@ -66,6 +69,9 @@ footer {
 @media screen and (max-width: 650px) {
     article {
         padding: 1rem;
+    } 
+    footer {
+        margin: 1rem;
     }
 }
 
