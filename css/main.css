@@ -1,0 +1,71 @@
+html {
+    box-sizing: border-box;
+} 
+
+* {
+    box-sizing: inherit;
+} 
+
+body {
+    color: #000;
+    font-family: 'Mate', 'Lucida Bright', 'Times New Roman', serif;
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Josefin Sans', 'Verdana', 'Futura', sans-serif;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to right, #E5DFFB, #FED7D8);
+    line-height: 1.5rem;
+    padding: 2rem;
+}
+
+#sabrina {
+    max-width: 100%;
+}
+
+.album {
+    margin: 1rem;
+}
+
+.song p {
+    text-align: center;
+    background: #F1F3F4;
+    border-radius: 3rem;
+    padding: 0.5rem;
+}
+
+p {
+    max-width: 500px;
+}
+
+#bio {
+    background: #fff;
+    border-color: #F4C2A1;
+    border-style: solid;
+    padding: 0.5rem 1rem;
+}
+
+footer {
+    background: #fff;
+    text-align: center;
+    margin: 2rem;
+    border-color: #F4C2A1;
+    border-style: solid;
+}
+
+
+/* media query */
+@media screen and (max-width: 650px) {
+    article {
+        padding: 1rem;
+    }
+}
+
